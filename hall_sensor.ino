@@ -16,7 +16,7 @@ void setup(){
 }
 
 void loop(){
-  // membaca state yang dihasilkan dari nilai touchRead
+  // membaca state yang dihasilkan dari nilai hallRead
   int measurement = 0;
   measurement = hallRead();
   Serial.print(measurement); 
